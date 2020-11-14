@@ -1,4 +1,4 @@
-# Database_HospitalManagementSystem
+# Hospital Management System
 **Aigerim Moldakhanova and Nurbereke Konysbay**
 
 
