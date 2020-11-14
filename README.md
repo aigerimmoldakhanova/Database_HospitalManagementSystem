@@ -1,5 +1,5 @@
 # Database_HospitalManagementSystem
-**Aigerim Moldakhanova  Nurbereke Konysbay**
+**Aigerim Moldakhanova and Nurbereke Konysbay**
 
 
 ![ERD](ERD_HospitalManagementSystem.png)
