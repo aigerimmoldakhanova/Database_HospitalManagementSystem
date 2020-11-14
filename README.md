@@ -2,4 +2,4 @@
 **Aigerim Moldakhanova and Nurbereke Konysbay**
 
 
-![ERD](ERD_HospitalManagementSystem.png)
+![ERD](NEW_ERD_HospitalManagementSystem.png)
