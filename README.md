@@ -2,4 +2,4 @@
 **Aigerim Moldakhanova  Nurbereke Konysbay**
 
 
-![ERD] (ERD_HospitalManagementSystem.png)
+![ERD](ERD_HospitalManagementSystem.png)
