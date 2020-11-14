@@ -69,7 +69,7 @@ diagnosis_id INT,
 bill_id	INT,
 PRIMARY KEY (patient_id),
 FOREIGN KEY (doctor_id) REFERENCES Doctors (doctor_id),--Shows to which doctor the patient made an appointment	
-FOREIGN KEY (diagnosis_id) REFERENCES Diagnosis (diagnosis_id), --Information about the patient's diagnosis	
+FOREIGN KEY (diagnosis_id) REFERENCES Diagnosis (diagnosis_id),--Information about the patient's diagnosis	
 FOREIGN KEY (bill_id) REFERENCES Bill (bill_id)--Shows the patient's payment
 );
 
@@ -82,7 +82,7 @@ doctor_id INT,
 bill_id	INT,
 PRIMARY KEY (schedule_id),
 FOREIGN KEY (patient_id) REFERENCES Patient (patient_id),--Since this table display data about reception, there must be access to information about the registered patients	
-FOREIGN KEY (doctor_id) REFERENCES Doctors (doctor_id),--	The reception has information about the doctors
+FOREIGN KEY (doctor_id) REFERENCES Doctors (doctor_id),--The reception has information about the doctors
 FOREIGN KEY (bill_id) REFERENCES Bill (bill_id)--Reception has data about payment type	
 );
 
