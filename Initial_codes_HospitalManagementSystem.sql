@@ -69,7 +69,7 @@ diagnosis_id INT,
 bill_id	INT,
 PRIMARY KEY (patient_id),
 FOREIGN KEY (doctor_id) REFERENCES Doctors (doctor_id),--Shows to which doctor the patient made an appointment	
-FOREIGN KEY (diagnosis_id) REFERENCES Diagnosis (diagnosis_id),--Information about the patient's diagnosis	
+FOREIGN KEY (diagnosis_id) REFERENCES Diagnosis (diagnosis_id), --Information about the patient's diagnosis	
 FOREIGN KEY (bill_id) REFERENCES Bill (bill_id)--Shows the patient's payment
 );
 
